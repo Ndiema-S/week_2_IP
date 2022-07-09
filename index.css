@@ -94,17 +94,29 @@ h2 {
     font-weight: 100;
     padding-right: 10%;
     clear: right;
-    margin-top:  -30%;
-}
-p{
-    text-decoration: #ED661F;
-display: flex;
-width:15%;
-padding-left: 15%;
-font-weight: 300;
-font-size:150% ;
-padding-right: 0%;
+    margin-top: -30%;
 }
 
-span{text-emphasis-color: white;
-color: white;}
+p {
+    text-decoration: #ED661F;
+    display: flex;
+    width: 15%;
+    padding-left: 15%;
+    font-weight: 300;
+    font-size: 150%;
+    padding-right: 0%;
+}
+
+span {
+    text-emphasis-color: white;
+    color: white;
+
+}
+
+table {
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    float: right;
+    padding: 2%;
+}
