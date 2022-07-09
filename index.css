@@ -1,47 +1,88 @@
-body{
+body {
     margin: 0;
-    background:white;
+    background: white;
     font-family: sans-serif;
 }
-.container{width: 80%;
-margin:0 auto;}
-header{
-    background-color:black;
+
+/*navigation bar*/
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
-header::after{content:'';
-display: table;
-clear: both;}
 
-.logo{float: left;
-color: white;
-padding: 10px;}
+header {
+    background-color: black;
+}
 
-nav{float: right;}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
-nav ul{
+.logo {
+    float: left;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-nav li{ display: inline-block;
-margin-left: 70px;
-padding-top: 40px;
-position: relative;}
 
-nav a{ color: white;
-text-decoration:none;}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 40px;
+    position: relative;
+}
 
-nav a::after{ content: '';
-display: block;
-height: 4px;
-width: 100%;
-background-color:#ED661F ;
-position: absolute;
-bottom: 0;
-width: 0;}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #ED661F;
+    position: absolute;
+    bottom: 0;
+    width: 0;
+}
 
 
-nav a:hover::after{width: 100%;}
+nav a:hover::after {
+    width: 100%;
+}
 
-span{background-color: #ED661F;
-    padding: 20px;;}
+span {
+    background-color: #ED661F;
+    padding: 20px;
+}
+
+/*body section*/
+
+.Buying h1 {
+    width: 23%;
+    margin-top: 0%;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 62%;
+    padding-bottom: 30%;
+}
+
+.Buying h1 {
+    background-image: url(assets/images/image\ 2.png), url(assets/images/image\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top right,center;
+    background-size: 50%,100%;
+}
