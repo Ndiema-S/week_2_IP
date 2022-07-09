@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: white;
     font-family: sans-serif;
+    overflow: scroll;
 }
 
 /*navigation bar*/
@@ -95,6 +96,7 @@ h2 {
     padding-right: 10%;
     clear: right;
     margin-top: -30%;
+
 }
 
 p {
@@ -113,10 +115,31 @@ span {
 
 }
 
+/*table to be aligned accordingly*/
 table {
     width: 30%;
     background-color: white;
     text-align: center;
     float: right;
     padding: 2%;
+    margin: 13%;
+    box-shadow: 1%;
+
+}
+
+.middle h1 {
+    margin-bottom: -30;
+    margin: 25%;
+    margin-left: 15%;
+    width: 15%;
+}
+
+
+.middle p {
+    padding-right: 3%;
+    width: 35%;
+    margin: -10%;
+    margin-left: 0%;
+    margin-top: -24%;
+    float: left;
 }
