@@ -1,8 +1,16 @@
+*:root {
+    width: auto;
+    height: 100%;
+}
+
+
 body {
     margin: 0;
     background: white;
     font-family: sans-serif;
-    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /*navigation bar*/
@@ -112,6 +120,7 @@ p {
 span {
     text-emphasis-color: white;
     color: white;
+    background-color: #ED661F;
 
 }
 
@@ -123,17 +132,19 @@ table {
     float: right;
     padding: 2%;
     margin: 13%;
-    box-shadow: 1%;
+    box-shadow: 2px 2px 4px;
 
 }
+
+/*middle body section*/
 
 .middle h1 {
     margin-bottom: -30;
     margin: 25%;
     margin-left: 15%;
     width: 15%;
+    text-decoration: underline #ED661F;
 }
-/*middle body section*/
 
 .middle p {
     padding-right: 3%;
@@ -143,33 +154,87 @@ table {
     margin-top: -24%;
     float: left;
 }
-.middle img{ float: right;
-width: 40%;
-margin-top:-30%;
-margin-right:10%;}
 
-/*end body section*/
-
-.end h1{
-width: 100%;
-padding-left: 20%;
-text-align: center;
-margin-top:-5%;
-display: flex;}
-
-.end p{
-width: 38%;
-text-align: center;
-padding-left:30%;}
-
-
-
-/*Image cards*/
-
-.container_1{ display: flex;
-
-
+.middle img {
+    float: right;
+    width: 40%;
+    margin-top: -30%;
+    margin-right: 10%;
 }
 
-.container_2{display: flex;}
+.end h1 {
+    display: flex;
+    padding-left: 23%;
+    width: 40%;
+    text-decoration: underline #ED661F;
+}
 
+.end p {
+    display: flex;
+    padding-left: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+.heading_3 {
+    padding-left: 15%;
+    margin-top: -18%;
+    text-decoration: underline #ED661F;
+    ;
+}
+
+/* styling Product Section */
+
+.main-container {
+    margin: 90px auto 0;
+    display: flex;
+    display: inline;
+}
+.cards {
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.main-container .card-option{
+    text-align: center;
+}
+.offers-options-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-option.card-option {
+    width: 30%;
+    max-width: 30%;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    height: 300px;
+    padding: 30px;
+    margin: 15px;
+}
+
+.img-card-option {
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+}
+.img-card-option > img {
+    height: inherit;
+    margin: 0 auto;
+}
+
+.description > h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.description > p {
+    font-size: 18px;
+    font-weight: 450;
+    margin-top: 20px;
+    color: grey;}
