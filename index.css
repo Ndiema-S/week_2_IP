@@ -193,6 +193,7 @@ table {
     align-items: center;
     margin-top: -2%;
     padding-top:14px;
+    
 }
 
 .main-container .card-option{
@@ -257,10 +258,12 @@ table {
     align-items: center;
     margin-top: -2%;
     padding-top:14px;
+    text-decoration: none;
 }
 
-.main-container_1.card-option{
+.main-container_1.card-option_1{
     text-align: center;
+    text-decoration: none;
 }
 .card-option_1{
     display: flex;
