@@ -309,5 +309,15 @@ table {
 
 
 
+/* see more section*/
+
+    .see_more{
+        float: right;
+        margin-right: 6%;
+        margin-top:-3%;
+    }
+
+
+
 
     
