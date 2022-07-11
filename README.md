@@ -1,10 +1,25 @@
+
+### Author-name
+Sheilah NAbachenje Ndiema
+
+### Project or program name
+Week 2 Independent Project | AgriPlus Website
 ### About
 
+### Description of program
 A project to design a company's front page using html and css
 
-### Objectives
 
-The implementation of HTML concepts is covered so far in this module.
+### Program setup instructions
+Do not change the layout or image sizes.
+The following are the background menus and the screen menu text colors for the project.
+Primary Color: #ED661F
+Font type: Poppins, Inter
+Host your website to  GitHub pages (Links to an external site.).
+
+
+### Objectives
+The implementation of HTML concepts covered so far in this module.
 The project includes a custom-made stylesheet that uses typography styles, cascading, the box model, and floats.
 Code is clean, well-refactored, and easy to read. This includes correct indentation, spacing, and including only necessary comments.
 Commits are made regularly with clear messages that finish  the phrase "It will…"
@@ -17,8 +32,8 @@ link to the site on GitHub Pages
 copyright and license information
 The project demonstrates an understanding of this week's concepts. If prompted, you can discuss your code with an instructor using the correct terminology.
 
-### License
 
+### License
 MIT License
 Copyright (c) [2022] [Sheilah Nabachenje Ndiema]
 Permission is hereby granted, free of charge, to any person obtaining a copy
