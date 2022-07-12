@@ -329,10 +329,7 @@ table {
 .customer-rating {
     width: 80%;
     margin: auto;
-    
-
 }
-
 .customer-rating>h1 {
     font-size: 600;
     margin-top: 15px;
@@ -341,7 +338,7 @@ table {
 }
 
 .customer-rating-section {
-    
+
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -356,9 +353,7 @@ table {
     margin-top: 80px;
 
     box-shadow: 2px 2px 2px 2px;
-
 }
-
 .column2>p {
     text-align: center;
     font-size: 300;
@@ -374,10 +369,55 @@ table {
     object-fit: contain;
     align-items: center;
     padding-left: 10px 10px;
-
-
 }
 
 .Read {
     text-align: right
+}
+
+.Read {
+    text-align: right
+}
+
+/* footer section 1*/
+.subscribe-section {
+    background: black;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.subscribe-header>h1 {
+    color: #fff;
+    font-size: 30;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.subscribe-header>p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.search {
+    width: 200px;
+    margin-left: 28%;
+    text-align: center;
+    display: flex;
+}
+
+.srch {
+    width: 300px;
+    height: 45px;
+    background: #fff;
+    border: 1px solid #fff3f3;
+    font-size: 18px;
+    border-right: 0;
 }
