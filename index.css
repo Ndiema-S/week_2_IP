@@ -166,7 +166,7 @@ table {
     display: flex;
     padding-left: 23%;
     width: 40%;
-    margin-top: -2%;
+    margin-top: -2px;
     text-decoration: underline #ED661F;
 }
 
@@ -330,6 +330,7 @@ table {
     width: 80%;
     margin: auto;
 }
+
 .customer-rating>h1 {
     font-size: 600;
     margin-top: 15px;
@@ -354,6 +355,7 @@ table {
 
     box-shadow: 2px 2px 2px 2px;
 }
+
 .column2>p {
     text-align: center;
     font-size: 300;
@@ -379,12 +381,12 @@ table {
     text-align: right
 }
 
-/* footer section 1*/
+/* footer section */
 .subscribe-section {
     background: black;
     width: 90%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 20px;
 }
 
@@ -420,4 +422,70 @@ table {
     border: 1px solid #fff3f3;
     font-size: 18px;
     border-right: 0;
+}
+
+.sub-btn{
+    width: 200px;
+    height: 46px;
+    background: #ED661F;
+    border: 2px solid #ED661F;
+    
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+}
+.sub-btn:hover{
+    box-shadow: #a6b7c56b 6px 15px 16px 0px;}
+
+.footer-contact{
+    background: black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.row3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-top: 16px;
+}
+.company-logo >h1{
+    color: white;
+    font-weight: 300;
+    font-size: 36px;
+    padding-left: 18px;
+}
+.company-logo > p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 18px;
+}
+.company-footer> h1{
+    color: #fff;
+    font-weight: 200;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+
+.company-footer ul li{
+    list-style: none;
+    color: #fff;
+    padding: 4px 4px 4px 4px;
+}
+.company-footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+    font-size: 9px;
+
+    padding-top: 30px;
+    padding-bottom: 40px;
 }
